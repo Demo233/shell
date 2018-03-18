@@ -6,7 +6,14 @@
 #for x in $@;do echo $x;done
 #for x in "$*";do echo $x;done
 #for((i=0;i<5;i++));do echo $i;done
-for ((i=0;i<5;i++))
-do
-	echo $i
+#for ((i=0;i<5;i++))
+#do
+#	echo $i
+#done
+
+SERVER="a b c"
+for a in $SERVER
+do 
+    echo $a
 done
+
