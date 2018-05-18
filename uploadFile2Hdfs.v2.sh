@@ -57,3 +57,4 @@ do
 	mv $toupload_dir$line"_COPY_"  $toupload_dir$line"_DONE_"
 done
 
+find $toupload_dir -type f -not \( -name '*_DONE_' -or -name '*_COPY_' \) -delete
